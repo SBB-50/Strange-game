@@ -1,27 +1,41 @@
+#imports
 import time
+import arcade
 
-print("hello, what is your name?")
+#constant vars
+schght = 600
+scwdth = 800
+title = "game lmao"
+rad = 150
+narr = "Narrator"
+#code i guess
+
+
+print(f"{narr}: hello, what is your name?")
 ans = input("")
-print(f"{ans}. that is one of the names ever!")
-print("anyways,")
+print(f"{narr}: {ans}. that is one of the names ever!")
+print(f"{narr}: anyways,")
 time.sleep(0.5)
-print("do you know what you are here for?")
+print(f"{narr}: do you know what you are here for?")
 ans = input("y/n ")
 if ans == "y":
-    print("oh?")
+    print(f"{narr}: oh?")
     time.sleep(1)
-    print("can you tell me then?")
+    print(f"{narr}: can you tell me then?")
     time.sleep(0.5)
-    print("no you cant now restart and let the story go on dipshit")
+    print(f"{narr}: no you cant now restart and let the story go on dipshit")
 if ans == "n":
-    print("no?")
+    print(f"{narr}: no?")
     time.sleep(1)
-    print("ok then,")
+    print(f"{narr}: ok then,")
     time.sleep(0.5)
-    print("you are here to complete the game.")
+    print(f"{narr}: you are here to complete the game.")
     time.sleep(1)
-    print("but you can't do that without a body.")
+    print(f"{narr}: but you can't do that without a body.")
     time.sleep(2)
-    print("so that is your goal for now.")
+    print(f"{narr}: so that is your goal for now.")
     time.sleep(1)
-    print("to find a usable body, that is.")
+    print(f"{narr}: to find a usable body, that is.")
+    uselessvar = input("(press enter to continue)")
+
+#
