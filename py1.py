@@ -23,7 +23,7 @@ if ans == "y":
     time.sleep(1)
     print(f"{narr}: can you tell me then?")
     time.sleep(0.5)
-    print(f"{narr}: no you cant now restart and let the story go on dipshit")
+    print(f"{narr}: no you cant now let the story go on dipshit")
 if ans == "n":
     print(f"{narr}: no?")
     time.sleep(1)
@@ -37,5 +37,9 @@ if ans == "n":
     time.sleep(1)
     print(f"{narr}: to find a usable body, that is.")
     uselessvar = input("(press enter to continue)")
-
-#
+print(" \x1B[3m you look around  \x1B[3m")
+print(" \x1B[3m jk you cant you literally don't have eyes\x1B[3m")
+print(" \x1B[3m you feel energy coming from different spots around you \x1B[3m")
+print(" \x1B[3m the biggest source is to your left, the second largest is in front of you, and the smallest is behind you \x1B[3m")
+direct = input("where would you like to investigate? (right/left/forward/back)")
+#italic template print(" \x1B[3m \x1B[3m")
