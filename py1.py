@@ -1,0 +1,25 @@
+import time
+
+print("hello, what is your name?")
+ans = input("")
+print(f"{ans}. that is one of the names ever!")
+print("anyways,")
+time.sleep(0.5)
+print("do you know what you are here for?")
+ans = input("y/n ")
+if ans == "y":
+    print("oh?")
+    time.sleep(1)
+    print("can you tell me then?")
+    time.sleep(0.5)
+    print("no you cant now restart and let the story go on dipshit")
+if ans == "n":
+    print("no?")
+    time.sleep(1)
+    print("ok then,")
+    time.sleep(0.5)
+    print("you are here to complete the game.")
+    time.sleep(1)
+    print("but you can't do that without a body.")
+    time.sleep(2)
+    print("so that is your goal for now.")
