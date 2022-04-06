@@ -23,3 +23,5 @@ if ans == "n":
     print("but you can't do that without a body.")
     time.sleep(2)
     print("so that is your goal for now.")
+    time.sleep(1)
+    print("to find a usable body, that is.")
